@@ -1,0 +1,65 @@
+:root {
+  --purple: rgba(99, 62, 202, 0.747);
+  --purpleOpacity: rgba(52, 50, 190, 0.082);
+}
+html {
+  scroll-behavior: smooth;
+}
+.pointer:hover {
+  cursor: pointer;
+}
+
+.btnHover:hover {
+  background-color: var(--purple);
+}
+.btnHover:hover > a {
+  color: white !important;
+}
+.servicesItem:hover .servicesImg {
+  transform: translateY(-0.5rem);
+}
+
+.active header {
+  background-color: var(--purple);
+  display: static;
+}
+
+li > a:hover {
+  color: rgb(194, 194, 194);
+}
+
+.filterOption:hover {
+  background-color: rgb(232, 230, 240);
+  border-radius: 5rem;
+  padding: 0.4rem;
+}
+.courseItemPriceDiv,
+.courseItemTitle,
+.filterOption,
+.servicesImg,
+a,
+.fa,
+.link,
+.teamImg,
+.btnHover {
+  transition: 0.3s;
+}
+.courseItem:hover .courseItemPriceDiv {
+  width: 11rem;
+  height: 11rem;
+}
+.courseItem:hover .courseItemTitle {
+  color: var(--purple);
+}
+.teamItem:hover .teamImg {
+  transform: translateY(-0.5rem);
+}
+.teamSocial:hover {
+  background-color: var(--purple);
+}
+.teamSocial:hover > a {
+  color: white;
+}
+.link:hover {
+  transform: translateX(-0.3rem);
+}

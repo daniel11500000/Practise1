@@ -1,0 +1,178 @@
+:root {
+  --purple: rgba(99, 62, 202, 0.747);
+  --purpleOpacity: rgba(52, 50, 190, 0.082);
+}
+
+@font-face {
+  font-family: fa-brands;
+  src: url(../webfonts/fa-brands-400.ttf);
+}
+@font-face {
+  font-family: fa-brands2;
+  src: url(../webfonts/fa-brands-400.woff2);
+}
+@font-face {
+  font-family: fa-regular;
+  src: url(../webfonts/fa-regular-400.ttf);
+}
+@font-face {
+  font-family: fa-regular2;
+  src: url(../webfonts/fa-regular-400.woff2);
+}
+@font-face {
+  font-family: fa-solid;
+  src: url(../webfonts/fa-solid-900.ttf);
+}
+@font-face {
+  font-family: fa-solid;
+  src: url(../webfonts/fa-solid-900.woff2);
+}
+@font-face {
+  font-family: fa-v4;
+  src: url(../webfonts/fa-v4compatibility.ttf);
+}
+@font-face {
+  font-family: fa-v4-2;
+  src: url(../webfonts/fa-v4compatibility.woff2);
+}
+
+html,
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.logo {
+  text-transform: uppercase;
+  font-size: 300%;
+}
+.rightNav {
+  font-size: 70%;
+}
+
+.bannerItemHeadingDiv {
+  align-items: center;
+}
+.bannerItemDesc {
+  font-size: 150%;
+  line-height: 1.5rem;
+}
+.servicesDescTitle {
+  font-family: sans-serif;
+  font-weight: 600;
+  margin: 0;
+}
+.servicesDesc {
+  font-weight: 200;
+  font-size: 90%;
+  line-height: 2rem;
+}
+.bannerItemFooterDiv {
+  font-size: 80%;
+  font-weight: 700;
+}
+.aboutTitle {
+  font-weight: 600;
+}
+.aboutQue {
+  font-weight: 300;
+}
+.aboutDesc {
+  font-size: 80%;
+  line-height: 2rem;
+  margin-bottom: 3rem;
+}
+.ContentTitle {
+  font-weight: 600;
+  font-size: 110%;
+}
+.ContentPlus {
+  font-weight: 900;
+}
+.coursesTitle {
+  font-weight: 600;
+  font-size: 140%;
+  text-transform: uppercase;
+}
+.coursesMainTitle {
+  font-weight: 500;
+}
+.filterOption {
+  font-weight: 600;
+}
+.courseItemTopic {
+  text-transform: uppercase;
+  font-size: 70%;
+}
+.courseItemPrice {
+  font-weight: 900;
+}
+.courseItemAuthor {
+  font-weight: 300;
+}
+.courseItemTitle {
+  font-weight: 600;
+  margin: 0;
+}
+.courseItemAuthor {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+.statsDesc {
+  font-size: 70%;
+  font-weight: 600;
+}
+.teamTitle {
+  font-weight: 300;
+}
+.teamName {
+  font-weight: 500;
+}
+.fa {
+  color: var(--purple);
+}
+.testTitle {
+  font-size: 70%;
+}
+.testQue {
+  font-weight: 500;
+  font-size: 180%;
+}
+.testDesc1 {
+  color: black;
+  font-size: 70%;
+}
+.eventsTitle {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.eventsMainTitle {
+  font-size: 200%;
+  margin-bottom: 10rem;
+}
+.eventsTopic {
+  font-size: 70%;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.eventsDescTitle {
+  font-size: 70%;
+}
+.eventsDesc {
+  font-weight: 600;
+  font-size: 80%;
+}
+.contactTitle {
+  text-transform: uppercase;
+  font-size: 50%;
+}
+.contactQue {
+  font-size: 150%;
+  font-weight: 400;
+}
+.contactDesc {
+  line-height: 2rem;
+  font-size: 55%;
+}
+footer {
+  font-size: 130%;
+}
